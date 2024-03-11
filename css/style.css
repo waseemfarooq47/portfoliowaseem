@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import './utilities.css';
+
+:root{
+  --primary:#3DCFD3;
+  --dark:#161616;
+  --pure:#FFFFFF;
+  --ternary:#898989;
+  --light:#F2F2F2;
+  --secondary:#070606;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing:antialiased;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+header{
+  background-color: var(--dark);
+  clip-path: polygon(0 0,100% 0,100% 100%,75% 87%,0 100%);
+  padding:3rem 0;
+}
+
+.container{
+  width: 1152px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header nav .left .links a{
+  color: var(--pure);
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  transition: all .3s ease;
+}
+
+header nav .left .links a:hover{
+  color: var(--primary);
+}
+
+header nav{
+  padding: 3rem 0;
+}
+
+.branding{
+  margin-right: 3rem;
+}
+.hero{
+  padding:3rem 0;
+}
+.hero .left img{
+  height: 400px;
+}
+
+.hero .right{
+  color: var(--pure);
+  margin-top: -7rem;
+}
+
+.hero .right h6{
+  font-size: 1.6rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.hero .right h1{
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+
+  span{
+    color:var(--primary);
+    display:block;
+  }
+}
+
+.hero .right p{
+  line-height: 1.9;
+  margin-bottom: 2rem ;
+}
+
+
+
+
+
+
+
