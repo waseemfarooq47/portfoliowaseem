@@ -52,3 +52,7 @@
 .flex-1{
   flex:1;
 }
+
+section{
+  padding: 3rem 0;
+}
