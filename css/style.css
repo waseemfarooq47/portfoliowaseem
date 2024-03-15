@@ -22,6 +22,10 @@ body{
   font-family: "Poppins", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 header{
   background-color: var(--dark);
   clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
@@ -51,6 +55,15 @@ header nav{
 
 .branding{
   margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem
+}
+
+.branding img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 .hero{
   padding:3rem 0;
@@ -221,7 +234,7 @@ section.services .card-wrapper .card p{
 
 section.freelancer{
   text-align: center;
-  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/camera.png);
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/images/camera.png);
   color: var(--pure);
   clip-path:polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
   padding-bottom: 10rem ;
@@ -504,20 +517,6 @@ footer .copyright{
   color: var(--ternary);
 }
 
-
-@media (max-width:1160px){
-  header #main-nav{
-    display: none;
-  }
-
-  .hamburger{
-    display: block !important;
-}
-
-
-}
-
-
 .main-site-wrapper{
   position: relative;
 }
@@ -581,3 +580,53 @@ footer .copyright{
 .times img{
   width: 30px;;
 }
+
+
+@media (max-width:1160px){
+  header #main-nav{
+    display: none;
+  }
+  .hamburger{
+    display: block !important;
+  }
+
+  .container{
+    width: 100%;
+  }
+}
+
+
+@media (max-width:786px){
+  .hero .right h1{
+    font-size: 2rem;
+  }
+
+  .hero .right p{
+    line-height: 1.4rem;
+  }
+}
+
+@media (max-width:600px){
+  .hero .left{
+    display: none;
+  }
+
+  section.blog .card-wrapper,section.services .card-wrapper,section.contact .card-wrapper,section.contact .input-wrap,section.work .card-wrapper{
+    grid-template-columns: 1fr;
+  }
+
+  section.about .about-left{
+    display: none;
+  }
+
+  section.blog {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 71% 96%, 0 100%);
+}
+section.reviews .slider .slide{
+  padding: 0rem;
+}
+
+}
+
+
+

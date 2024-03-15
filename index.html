@@ -15,12 +15,12 @@
     <div class="site-main-wrapper">
       <!-- Mobile Nav -->
       <button class="hamburger">
-        <img src="./images/hamberger.svg" alt="hamburger" />
+        <img src="./assets/images/hamberger.svg" alt="hamburger" />
       </button>
 
       <div class="mobile-nav">
         <button class="times">
-          <img src="./images/times.svg" alt="times" />
+          <img src="./assets/images/times.svg" alt="times" />
         </button>
         <ul>
           <li><a href="#">Home</a></li>
@@ -32,18 +32,19 @@
       </div>
 
       <!-- main-header -->
-      <header>
+      <header id="home">
         <section class="container">
           <nav id="main-nav" class="flex items-center justify-between">
             <div class="left flex items-center">
               <div class="branding">
-                <img src="./images/logo.svg" alt="logo" />
+                <img src="./assets/images/newlog.jpg" alt="logo" />
+                <!-- <h1>Waseem Farooq</h1> -->
               </div>
-              <div class="links"><a href="#">Home</a></div>
-              <div class="links"><a href="#">About</a></div>
-              <div class="links"><a href="#">Services</a></div>
-              <div class="links"><a href="#">Pages</a></div>
-              <div class="links"><a href="#">Blog</a></div>
+              <div class="links"><a href="#home">Home</a></div>
+              <div class="links"><a href="#about">About</a></div>
+              <div class="links"><a href="#services">Services</a></div>
+              <div class="links"><a href="#work">Work</a></div>
+              <div class="links"><a href="#blog">Blog</a></div>
             </div>
             <div class="right">
               <button class="btn btn-primary">Contact</button>
@@ -52,7 +53,7 @@
 
           <div class="hero flex items-center justify-between">
             <div class="left flex-1 flex justify-center">
-              <img src="./images/man.png" alt="man" />
+              <img src="./assets/images/man.png" alt="man" />
             </div>
             <div class="right flex-1">
               <h6>Waseem Farooq</h6>
@@ -65,19 +66,25 @@
               </p>
 
               <div class="">
-                <button class="btn btn-secondary">Download CV</button>
+                <a href="./assets/docs/waseem resume_omn.pdf" target="_blank"
+                  ><button class="btn btn-secondary">Download CV</button></a
+                >
               </div>
             </div>
           </div>
         </section>
       </header>
       <!-- About -->
-      <section class="about">
+      <section id="about" class="about">
         <div class="container flex items-center">
-          <div class="flex-1">
-            <img class="about-me-img" src="./images/man-2.png" alt="man" />
+          <div class="flex-1 about-left">
+            <img
+              class="about-me-img"
+              src="./assets/images/man-2.png"
+              alt="man"
+            />
           </div>
-          <div class="flex-1">
+          <div class="flex-1 about-right">
             <h1>About <span>Me</span></h1>
             <h3>Hello! I'm Waseem Farooq</h3>
             <p>
@@ -88,17 +95,17 @@
             </p>
 
             <div class="social flex">
-              <a href="#"><img src="./images/website.svg" alt="" /></a>
-              <a href="#"><img src="./images/linkedin.svg" alt="" /></a>
-              <a href="#"><img src="./images/twitter.svg" alt="" /></a>
-              <a href="#"><img src="./images/instagram.svg" alt="" /></a>
-              <a href="#"><img src="./images/pintrest.svg" alt="" /></a>
+              <a href="#"><img src="./assets/images/website.svg" alt="" /></a>
+              <a href="#"><img src="./assets/images/linkedin.svg" alt="" /></a>
+              <a href="#"><img src="./assets/images/twitter.svg" alt="" /></a>
+              <a href="#"><img src="./assets/images/instagram.svg" alt="" /></a>
+              <a href="#"><img src="./assets/images/pintrest.svg" alt="" /></a>
             </div>
           </div>
         </div>
       </section>
       <!-- services -->
-      <section class="services">
+      <section id="services" class="services">
         <div class="container">
           <h1 class="section-heading"><span>Our</span> Services</h1>
           <p>
@@ -107,7 +114,7 @@
 
           <div class="card-wrapper">
             <div class="card">
-              <img src="./images/brush.svg" alt="" />
+              <img src="./assets/images/brush.svg" alt="" />
               <h2>Graphic Design</h2>
               <p>
                 There are many variations of passages of but the majority have
@@ -115,7 +122,7 @@
               </p>
             </div>
             <div class="card">
-              <img src="./images/code.svg" alt="" />
+              <img src="./assets/images/code.svg" alt="" />
               <h2>Graphic Design</h2>
               <p>
                 There are many variations of passages of but the majority have
@@ -123,7 +130,7 @@
               </p>
             </div>
             <div class="card">
-              <img src="./images/bag.svg" alt="" />
+              <img src="./assets/images/bag.svg" alt="" />
               <h2>Graphic Design</h2>
               <p>
                 There are many variations of passages of but the majority have
@@ -131,7 +138,7 @@
               </p>
             </div>
             <div class="card">
-              <img src="./images/desktop.svg" alt="" />
+              <img src="./assets/images/desktop.svg" alt="" />
               <h2>Graphic Design</h2>
               <p>
                 There are many variations of passages of but the majority have
@@ -139,7 +146,7 @@
               </p>
             </div>
             <div class="card">
-              <img src="./images/media.svg" alt="" />
+              <img src="./assets/images/media.svg" alt="" />
               <h2>Graphic Design</h2>
               <p>
                 There are many variations of passages of but the majority have
@@ -147,7 +154,7 @@
               </p>
             </div>
             <div class="card">
-              <img src="./images/phone.svg" alt="" />
+              <img src="./assets/images/phone2.svg" alt="" />
               <h2>Graphic Design</h2>
               <p>
                 There are many variations of passages of but the majority have
@@ -158,7 +165,7 @@
         </div>
       </section>
       <!-- Freelancer -->
-      <section class="freelancer">
+      <section id="freelancer" class="freelancer">
         <h1>I am Available For Freelancer</h1>
         <p>We provide high standar clean website for your business solutions</p>
         <button class="btn btn-primary">Download CV</button>
@@ -173,7 +180,7 @@
 
           <div class="slider">
             <div class="slide">
-              <img src="./images/lady.png" alt="" />
+              <img src="./assets/images/lady.png" alt="" />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dolorum, eos a! Quisquam obcaecati ratione eligendi architecto
@@ -183,7 +190,7 @@
               <span>Waseem Farooq - Freelancer</span>
             </div>
             <div class="slide">
-              <img src="./images/lady.png" alt="" />
+              <img src="./assets/images/lady.png" alt="" />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dolorum, eos a! Quisquam obcaecati ratione eligendi architecto
@@ -193,7 +200,7 @@
               <span>Waseem Farooq - Freelancer</span>
             </div>
             <div class="slide">
-              <img src="./images/lady.png" alt="" />
+              <img src="./assets/images/lady.png" alt="" />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dolorum, eos a! Quisquam obcaecati ratione eligendi architecto
@@ -203,7 +210,7 @@
               <span>Waseem Farooq - Freelancer</span>
             </div>
             <div class="slide">
-              <img src="./images/lady.png" alt="" />
+              <img src="./assets/images/lady.png" alt="" />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dolorum, eos a! Quisquam obcaecati ratione eligendi architecto
@@ -217,7 +224,7 @@
         </div>
       </section>
       <!--Work  -->
-      <section class="work">
+      <section id="work" class="work">
         <div class="container">
           <h1 class="section-heading"><span>Our </span>Works</h1>
           <p>
@@ -226,42 +233,42 @@
 
           <div class="card-wrapper">
             <div class="card">
-              <img src="./images/ph-1.png" alt="" />
+              <img src="./assets/images/ph-1.png" alt="" />
               <div class="overlay">
                 <span>Category</span>
                 <a href="#">Web Development</a>
               </div>
             </div>
             <div class="card">
-              <img src="./images/ph-2.png" alt="" />
+              <img src="./assets/images/ph-2.png" alt="" />
               <div class="overlay">
                 <span>Category</span>
                 <a href="#">Web Development</a>
               </div>
             </div>
             <div class="card">
-              <img src="./images/ph-3.png" alt="" />
+              <img src="./assets/images/ph-3.png" alt="" />
               <div class="overlay">
                 <span>Category</span>
                 <a href="#">Web Development</a>
               </div>
             </div>
             <div class="card">
-              <img src="./images/article-ph-1.png" alt="" />
+              <img src="./assets/images/article-ph-1.png" alt="" />
               <div class="overlay">
                 <span>Category</span>
                 <a href="#">Web Development</a>
               </div>
             </div>
             <div class="card">
-              <img src="./images/article-ph-2.png" alt="" />
+              <img src="./assets/images/article-ph-2.png" alt="" />
               <div class="overlay">
                 <span>Category</span>
                 <a href="#">Web Development</a>
               </div>
             </div>
             <div class="card">
-              <img src="./images/article-ph-3.png" alt="" />
+              <img src="./assets/images/article-ph-3.png" alt="" />
               <div class="overlay">
                 <span>Category</span>
                 <a href="#">Web Development</a>
@@ -271,7 +278,7 @@
         </div>
       </section>
       <!--Blog  -->
-      <section class="blog">
+      <section id="blog" class="blog">
         <div class="container">
           <h1 class="section-heading"><span>Our </span>Blog</h1>
           <p>
@@ -281,7 +288,7 @@
           <div class="card-wrapper">
             <div class="card">
               <div class="img-wrapper">
-                <img src="./images/article-ph-1.png" alt="" />
+                <img src="./assets/images/article-ph-1.png" alt="" />
               </div>
               <div class="card-content">
                 <a href="#">
@@ -299,7 +306,7 @@
             </div>
             <div class="card">
               <div class="img-wrapper">
-                <img src="./images/article-ph-2.png" alt="" />
+                <img src="./assets/images/article-ph-2.png" alt="" />
               </div>
               <div class="card-content">
                 <a href="#">
@@ -317,7 +324,7 @@
             </div>
             <div class="card">
               <div class="img-wrapper">
-                <img src="./images/article-ph-3.png" alt="" />
+                <img src="./assets/images/article-ph-3.png" alt="" />
               </div>
               <div class="card-content">
                 <a href="#">
@@ -337,7 +344,7 @@
         </div>
       </section>
       <!-- Contact -->
-      <section class="contact">
+      <section id="contact" class="contact">
         <div class="container">
           <h1 class="section-heading">Contact <span>Us</span></h1>
           <p>
@@ -346,17 +353,17 @@
 
           <div class="card-wrapper">
             <div class="card">
-              <img src="./images/phone.svg" alt="" />
+              <img src="./assets/images/phone.svg" alt="" />
               <h1>Call Us On</h1>
               <h6>+985 123 7856</h6>
             </div>
             <div class="card">
-              <img src="./images/message.svg" alt="" />
+              <img src="./assets/images/message.svg" alt="" />
               <h1>Email Us At</h1>
               <h6>support@companyname.com</h6>
             </div>
             <div class="card">
-              <img src="./images/map.svg" alt="" />
+              <img src="./assets/images/map.svg" alt="" />
               <h1>Visit Office</h1>
               <h6>99 S.t Jomblo Park Pekanbaru 28292. Indonesia</h6>
             </div>
@@ -384,13 +391,17 @@
         </div>
       </section>
       <footer>
-        <img class="footer-logo" src="./images/logo-2.svg" alt="footer" />
+        <img
+          class="footer-logo"
+          src="./assets/images/logo-2.svg"
+          alt="footer"
+        />
         <div class="footer-socials">
-          <a href="#"><img src="./images/website.svg" alt="" /></a>
-          <a href="#"><img src="./images/linkedin.svg" alt="" /></a>
-          <a href="#"><img src="./images/twitter.svg" alt="" /></a>
-          <a href="#"><img src="./images/instagram.svg" alt="" /></a>
-          <a href="#"><img src="./images/pintrest.svg" alt="" /></a>
+          <a href="#"><img src="./assets/images/website.svg" alt="" /></a>
+          <a href="#"><img src="./assets/images/linkedin.svg" alt="" /></a>
+          <a href="#"><img src="./assets/images/twitter.svg" alt="" /></a>
+          <a href="#"><img src="./assets/images/instagram.svg" alt="" /></a>
+          <a href="#"><img src="./assets/images/pintrest.svg" alt="" /></a>
         </div>
         <div class="copyright">Copyright 2020 © Coder's Gyan</div>
       </footer>
