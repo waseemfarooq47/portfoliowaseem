@@ -56,3 +56,7 @@
 section{
   padding: 3rem 0;
 }
+
+.pure-white{
+  color: var(--pure) !important;
+}
