@@ -25,3 +25,4 @@ mobileNav.classList.add('open')
 times.addEventListener('click',()=>{
   mobileNav.classList.remove('open')
 })
+

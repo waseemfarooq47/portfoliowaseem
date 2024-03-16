@@ -10,6 +10,7 @@
       href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
   <body>
     <div class="site-main-wrapper">
@@ -23,11 +24,11 @@
           <img src="./assets/images/times.svg" alt="times" />
         </button>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#blog">Blog</a></li>
         </ul>
       </div>
 
@@ -53,16 +54,20 @@
 
           <div class="hero flex items-center justify-between">
             <div class="left flex-1 flex justify-center">
-              <img src="./assets/images/man.png" alt="man" />
+              <img src="./assets/images/mypic.jpeg" alt="mypic" />
+
+              <div class="neon-effect"></div>
             </div>
             <div class="right flex-1">
               <h6>Waseem Farooq</h6>
-              <h1>I'am a creative <span>Frontend Developer</span></h1>
+              <h1>I'am a creative</h1>
+              <span class="my-skill-span" id="skills"></span>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam tenetur culpa beatae eos pariatur, quas cum magnam
-                omnis repellendus, porro suscipit doloribus alias. Assumenda
-                unde ipsum dolorum accusantium eligendi illum?
+                generating compelling digital experiences with pixel-perfect
+                accuracy. transforming designs into user-friendly, aesthetically
+                pleasing interfaces. promoting creativity and innovation in the
+                web development industry. Modern technologies and user-friendly
+                design can improve customer relations.
               </p>
 
               <div class="">
@@ -80,18 +85,20 @@
           <div class="flex-1 about-left">
             <img
               class="about-me-img"
-              src="./assets/images/man-2.png"
-              alt="man"
+              src="./assets/images/abt-me.svg"
+              alt="abt-me"
             />
           </div>
           <div class="flex-1 about-right">
             <h1>About <span>Me</span></h1>
             <h3>Hello! I'm Waseem Farooq</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              labore temporibus. Blanditiis unde aliquam praesentium aperiam in
-              atque, non ea ducimus veritatis quos alias debitis nesciunt nam
-              possimus fugit? Non.
+              Frontend Developer with a flair for creativity, turning design
+              into dynamic, user-friendly websites.Passionate about crafting
+              intuitive interfaces that captivate and engage users, while
+              optimizing for performance and accessibility. Dedicated to staying
+              at the forefront of web development trends, constantly learning
+              and refining skills to deliver exceptional digital experiences.
             </p>
 
             <div class="social flex">
@@ -109,56 +116,86 @@
         <div class="container">
           <h1 class="section-heading"><span>Our</span> Services</h1>
           <p>
-            We provide high standar clean website for your business solutions
+            We provide high standard clean website for your business solutions
           </p>
 
           <div class="card-wrapper">
-            <div class="card">
+            <div
+              class="card"
+              data-tilt
+              data-tilt-max="50"
+              data-tilt-speed="800"
+              data-tilt-perspective="1000"
+            >
               <img src="./assets/images/brush.svg" alt="" />
               <h2>Graphic Design</h2>
               <p>
-                There are many variations of passages of but the majority have
-                suffered alteration in some form.
+                Transforming concepts into captivating visuals. Logo design,
+                marketing materials, and brand identity. Let us elevate your
+                brand's visual presence.
               </p>
             </div>
-            <div class="card">
+            <div
+              class="card"
+              data-tilt
+              data-tilt-max="50"
+              data-tilt-speed="800"
+              data-tilt-perspective="1000"
+            >
               <img src="./assets/images/code.svg" alt="" />
-              <h2>Graphic Design</h2>
+
+              <h2>Development</h2>
               <p>
-                There are many variations of passages of but the majority have
-                suffered alteration in some form.
+                Crafting seamless, user-centric web experiences through code,
+                design, and innovation. Empowering your digital presence with
+                frontend development expertise.
               </p>
             </div>
-            <div class="card">
-              <img src="./assets/images/bag.svg" alt="" />
-              <h2>Graphic Design</h2>
-              <p>
-                There are many variations of passages of but the majority have
-                suffered alteration in some form.
-              </p>
-            </div>
-            <div class="card">
+            <div
+              class="card"
+              data-tilt
+              data-tilt-max="50"
+              data-tilt-speed="800"
+              data-tilt-perspective="1000"
+            >
               <img src="./assets/images/desktop.svg" alt="" />
-              <h2>Graphic Design</h2>
+
+              <h2>Web Application Development</h2>
               <p>
-                There are many variations of passages of but the majority have
-                suffered alteration in some form.
+                Transforming ideas into seamless digital experiences with custom
+                web application development tailored to your unique needs and
+                objectives.
               </p>
             </div>
-            <div class="card">
-              <img src="./assets/images/media.svg" alt="" />
-              <h2>Graphic Design</h2>
+
+            <div
+              class="card"
+              data-tilt
+              data-tilt-max="50"
+              data-tilt-speed="800"
+              data-tilt-perspective="1000"
+            >
+              <img src="./assets/images/technology.svg" alt="" />
+              <h2>Frontend Technologies</h2>
               <p>
-                There are many variations of passages of but the majority have
-                suffered alteration in some form.
+                Utilizing frontend technologies such as HTML, CSS, JavaScript,
+                React, and Vue to create seamless, responsive, and engaging user
+                experiences.
               </p>
             </div>
-            <div class="card">
+            <div
+              class="card"
+              data-tilt
+              data-tilt-max="50"
+              data-tilt-speed="800"
+              data-tilt-perspective="1000"
+            >
               <img src="./assets/images/phone2.svg" alt="" />
-              <h2>Graphic Design</h2>
+              <h2>Mobile Development</h2>
               <p>
-                There are many variations of passages of but the majority have
-                suffered alteration in some form.
+                Crafting seamless mobile experiences through innovative
+                solutions. Expertise in iOS, Android, and cross-platform
+                development. Let's bring your app idea to life!
               </p>
             </div>
           </div>
@@ -167,57 +204,59 @@
       <!-- Freelancer -->
       <section id="freelancer" class="freelancer">
         <h1>I am Available For Freelancer</h1>
-        <p>We provide high standar clean website for your business solutions</p>
-        <button class="btn btn-primary">Download CV</button>
+        <p>
+          Transforming Ideas into Impact: Your Vision, My Expertise, Limitless
+          Possibilities.
+        </p>
+        <a href="./assets/docs/waseem resume_omn.pdf" target="_blank"
+          ><button class="btn btn-primary">Download CV</button></a
+        >
       </section>
       <!-- Reviews -->
       <section class="reviews">
         <div class="container">
           <h1 class="section-heading"><span>Our </span>Client</h1>
           <p>
-            We provide high standar clean website for your business solutions
+            Empowering Success Together building Lasting Relationships One
+            Client at a Time.
           </p>
 
           <div class="slider">
             <div class="slide">
-              <img src="./assets/images/lady.png" alt="" />
+              <img src="./assets/images/pp.png" alt="" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorum, eos a! Quisquam obcaecati ratione eligendi architecto
-                cum modi soluta deserunt excepturi aliquid, vero doloribus
-                cupiditate corrupti commodi sed saepe debitis?
+                Amazing service! The team went above and beyond to meet our
+                needs. Highly recommend their expertise and professionalism
               </p>
-              <span>Waseem Farooq - Freelancer</span>
+              <span>Mudasir Ashraf- Director</span>
             </div>
             <div class="slide">
-              <img src="./assets/images/lady.png" alt="" />
+              <img src="./assets/images/pp.png" alt="" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorum, eos a! Quisquam obcaecati ratione eligendi architecto
-                cum modi soluta deserunt excepturi aliquid, vero doloribus
-                cupiditate corrupti commodi sed saepe debitis?
+                Codice Dev Private Limited."Exceptional quality and attention to
+                detail. Our project was completed on time and exceeded our
+                expectations. Thank you!"
               </p>
-              <span>Waseem Farooq - Freelancer</span>
+              <span>Asif Hamid - Director</span>
+            </div>
+
+            <div class="slide">
+              <img src="./assets/images/pp.png" alt="" />
+              <p>
+                "Working with them was a breeze! Clear communication, prompt
+                responses, and outstanding results. Couldn't be happier with the
+                outcome."
+              </p>
+              <span>Suhail Raheem - Developer</span>
             </div>
             <div class="slide">
-              <img src="./assets/images/lady.png" alt="" />
+              <img src="./assets/images/pp.png" alt="" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorum, eos a! Quisquam obcaecati ratione eligendi architecto
-                cum modi soluta deserunt excepturi aliquid, vero doloribus
-                cupiditate corrupti commodi sed saepe debitis?
+                Crafting seamless mobile experiences through innovative
+                solutions. Expertise in iOS, Android, and cross-platform
+                development. Let's bring your app idea to life
               </p>
-              <span>Waseem Farooq - Freelancer</span>
-            </div>
-            <div class="slide">
-              <img src="./assets/images/lady.png" alt="" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorum, eos a! Quisquam obcaecati ratione eligendi architecto
-                cum modi soluta deserunt excepturi aliquid, vero doloribus
-                cupiditate corrupti commodi sed saepe debitis?
-              </p>
-              <span>Waseem Farooq - Freelancer</span>
+              <span>Aqib Bala - Freelancer</span>
             </div>
           </div>
           <div class="slider-dots"></div>
@@ -228,36 +267,37 @@
         <div class="container">
           <h1 class="section-heading"><span>Our </span>Works</h1>
           <p>
-            We provide high standar clean website for your business solutions
+            Elevating Excellence Through Every Project: Where Vision Meets
+            Innovation.
           </p>
 
           <div class="card-wrapper">
             <div class="card">
-              <img src="./assets/images/ph-1.png" alt="" />
+              <img src="./assets/images/ph-11.jpg" alt="" />
               <div class="overlay">
                 <span>Category</span>
                 <a href="#">Web Development</a>
               </div>
             </div>
             <div class="card">
-              <img src="./assets/images/ph-2.png" alt="" />
+              <img src="./assets/images/ph-22.jpg" alt="" />
               <div class="overlay">
                 <span>Category</span>
-                <a href="#">Web Development</a>
+                <a href="#">Frontend Development</a>
               </div>
             </div>
             <div class="card">
-              <img src="./assets/images/ph-3.png" alt="" />
+              <img src="./assets/images/ph-33.jpg" alt="" />
               <div class="overlay">
                 <span>Category</span>
-                <a href="#">Web Development</a>
+                <a href="#">UI / UX Design</a>
               </div>
             </div>
             <div class="card">
-              <img src="./assets/images/article-ph-1.png" alt="" />
+              <img src="./assets/images/ph-44.jpg" alt="" />
               <div class="overlay">
                 <span>Category</span>
-                <a href="#">Web Development</a>
+                <a href="#">Mobile App Development</a>
               </div>
             </div>
             <div class="card">
@@ -282,60 +322,94 @@
         <div class="container">
           <h1 class="section-heading"><span>Our </span>Blog</h1>
           <p>
-            We provide high standar clean website for your business solutions
+            Exploring Inspiration, Insight, and Innovation: Where Every Word
+            Sparks New Ideas.
           </p>
 
           <div class="card-wrapper">
-            <div class="card">
+            <div
+              class="card"
+              data-tilt
+              data-tilt-max="50"
+              data-tilt-speed="800"
+              data-tilt-perspective="1000"
+            >
               <div class="img-wrapper">
-                <img src="./assets/images/article-ph-1.png" alt="" />
+                <img src="./assets/images/bb-1.png" alt="" />
               </div>
               <div class="card-content">
                 <a href="#">
-                  <h1>Occusamus et iusto odio</h1>
+                  <h1>
+                    The Power of Responsive Design: Creating Websites for Every
+                    Screen
+                  </h1>
                 </a>
-                <span>May 12, 2017</span>
+                <span>May 12, 2021</span>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui officia
-                  deserunt mollit anim id est laborum.
+                  In today's digital age, users access websites from a myriad of
+                  devices. Explore the importance of responsive design in
+                  ensuring optimal user experience across various screen sizes,
+                  from desktops to smartphones. Learn how implementing
+                  responsive design principles can enhance accessibility,
+                  improve SEO rankings, and boost conversion rates.
                 </p>
                 <a href="#">Read More</a>
               </div>
             </div>
-            <div class="card">
+            <div
+              class="card"
+              data-tilt
+              data-tilt-max="50"
+              data-tilt-speed="800"
+              data-tilt-perspective="1000"
+            >
               <div class="img-wrapper">
-                <img src="./assets/images/article-ph-2.png" alt="" />
+                <img src="./assets/images/bb-2.jpeg" alt="class" />
               </div>
               <div class="card-content">
                 <a href="#">
-                  <h1>Occusamus et iusto odio</h1>
+                  <h1>
+                    Demystifying CSS Grid: A Beginner's Guide to Layout Mastery
+                  </h1>
                 </a>
-                <span>May 12, 2017</span>
+                <span>Apr 02, 2022</span>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui officia
-                  deserunt mollit anim id est laborum.
+                  CSS Grid has revolutionized the way we design layouts on the
+                  web. Delve into this powerful tool, breaking down its
+                  fundamental concepts and demonstrating practical examples of
+                  grid-based layouts. Discover how CSS Grid simplifies complex
+                  layouts, offers greater flexibility, and enables designers to
+                  create visually stunning websites with ease.
                 </p>
                 <a href="#">Read More</a>
               </div>
             </div>
-            <div class="card">
+            <div
+              class="card"
+              data-tilt
+              data-tilt-max="50"
+              data-tilt-speed="800"
+              data-tilt-perspective="1000"
+            >
               <div class="img-wrapper">
-                <img src="./assets/images/article-ph-3.png" alt="" />
+                <img src="./assets/images/bb-3.png" alt="responsive" />
               </div>
               <div class="card-content">
                 <a href="#">
-                  <h1>Occusamus et iusto odio</h1>
+                  <h1>
+                    The Rise of Progressive Web Apps: Blurring the Lines Between
+                    Web and Native
+                  </h1>
                 </a>
-                <span>May 12, 2017</span>
+                <span>Aug 31, 2023</span>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui officia
-                  deserunt mollit anim id est laborum.
+                  Progressive Web Apps (PWAs) are transforming the web
+                  landscape, offering users a native app-like experience within
+                  the browser. Uncover the key features and benefits of PWAs,
+                  including offline functionality, push notifications, and fast
+                  performance. Learn how to leverage the power of PWAs to engage
+                  users, increase conversions, and stay ahead in the competitive
+                  digital market.
                 </p>
                 <a href="#">Read More</a>
               </div>
@@ -393,7 +467,7 @@
       <footer>
         <img
           class="footer-logo"
-          src="./assets/images/logo-2.svg"
+          src="./assets/images/newlog.jpg"
           alt="footer"
         />
         <div class="footer-socials">
@@ -403,7 +477,7 @@
           <a href="#"><img src="./assets/images/instagram.svg" alt="" /></a>
           <a href="#"><img src="./assets/images/pintrest.svg" alt="" /></a>
         </div>
-        <div class="copyright">Copyright 2020 © Coder's Gyan</div>
+        <div class="copyright">Copyright 2022 © Waseem Farooq</div>
       </footer>
     </div>
 
@@ -422,5 +496,19 @@
     ></script>
 
     <script src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/tilt.js"></script>
+    <script>
+      var typed = new Typed("#skills", {
+        strings: [
+          "Frontend Developer",
+          "Web Designer",
+          "Web Developer",
+          "UI / UX Designer",
+        ],
+        typeSpeed: 100,
+        delaySpeed: 90,
+        loop: true,
+      });
+    </script>
   </body>
 </html>
